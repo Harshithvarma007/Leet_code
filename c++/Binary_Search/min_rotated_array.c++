@@ -12,7 +12,6 @@ public:
             } else if (nums[mid] < nums[left]) {
                 right = mid;
             } else {
-                // Handle the case when nums[mid] == nums[left] == nums[right]
                 left++;
             }
         }
